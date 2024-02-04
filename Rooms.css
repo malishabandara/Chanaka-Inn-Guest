@@ -1,0 +1,97 @@
+.main{
+    background-color: rgba(0,0,0,0.5);
+    height: 590px;
+}
+.main-contain{
+    background-image: url(Images/Guest/IMG_20221025_120713.jpg);
+    background-size: contain;
+    height: 590px;
+    position: relative;
+}
+.nav-bar{
+    text-align: center;
+    position: relative;
+    top:0%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.nav-bar ul{
+    padding-inline-start: 0%;
+}
+
+.nav-bar ul li{
+    list-style: none;
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 35px;
+    padding: 10px 5px;
+    color: white;
+    font-weight: 800;
+    font-family: 'Poppins',sans-serif;
+    position: relative;
+    cursor: pointer;
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+.nav-bar ul li a:hover{
+    color: rgb(13, 173, 117);
+}
+
+.nav-bar .drop-down ul{
+    display: none;
+    position: absolute;
+    margin: 10px;
+}
+
+.nav-bar ul li:hover ul{
+    display: block;
+    text-align: left;
+    background-color: rgb(0,0,0);
+    border-radius: 7px;
+    box-shadow: 0 2px 10px -2px rgb(0 0 0 / 25%);
+    transition: .2s 0s;
+    padding-left: 10px;
+    padding-right: 50px;
+}
+
+.nav-bar i{
+    position: absolute;
+    top: 15%;
+}
+
+.main h1{
+    font-family: "Playfair Display";
+    color: white;
+    font-weight: 900;
+    font-size: 5rem;
+    line-height: 1.2;
+    letter-spacing: 1rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.main span{
+    color: black;
+}
+
+.main h2{
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-size: 12px;
+    padding: 7px 10px;
+    color: #fff;
+    text-align: center;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+}
